@@ -20,3 +20,8 @@ Each Campground has:
 # Style the campgrounds page
 * Add a better header/title
 * Style the new campground form
+
+# Style the Navbar and Form
+* Install and configure mongoose
+* Setup campground model
+* Use campground model inside of our routes!
