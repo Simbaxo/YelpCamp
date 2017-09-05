@@ -16,3 +16,7 @@ Each Campground has:
 * Add in body-parser
 * Setup route to show form
 * Add basic unstyled form
+
+# Style the campgrounds page
+* Add a better header/title
+* Style the new campground form
