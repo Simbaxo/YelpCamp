@@ -35,13 +35,13 @@ function seedDB(){
         } else {
           console.log("added a campground");
           // create a comment
-          Comments.create(
+          Comment.create(
             {
               text: "This place is but I wish they had internet",
               author: "Homer"
             }, function(err, comment){
               if(err){
-                console.log(err)
+                console.log(err);
               } else {
                   campground.comments.push(comment);
                   campground.save(); 

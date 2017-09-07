@@ -5,29 +5,14 @@ var express     = require("express"),
     Campground  = require("./models/campground"),
     seedDB      = require("./seeds");
 
-seedDB();
 mongoose.connect("mongodb://localhost/yelp_camp", {useMongoClient: true});
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
-
-// Campground.create(
-//   {
-//     name: "Mountain Goat's Rest", 
-//     image: "https://www.visitnc.com/resimg.php/imgcrop/2/52908/image/800/448/KerrCamping.jpg",
-//     description: "This is a huge mountain goat's rest, no bathrooms. No water. Beautiful mountains"
-    
-// }, function(err, campground){
-//   if(err){
-//     console.log(err);
-//   } else {
-//     console.log("Newly Created Campground: ");
-//     console.log(campground);
-//   } 
-// });
+seedDB();
 
 app.get("/", function(req, res){
   res.render("landing");
-})
+});
 
 //INDEX - show all campgrounds
 app.get("/campgrounds", function(req, res){
@@ -66,10 +51,11 @@ app.get("/campgrounds/new", function(req, res) {
 //SHOW - shows info about one campground
 app.get("/campgrounds/:id", function(req, res) {
     //find the campground with provided ID
-    Campground.findById(req.params.id, function(err, foundCampground){
+    Campground.findById(req.params.id).populate("comments").exec(function(err, foundCampground){
       if(err){
-        console.log(err)
+        console.log(err);
       } else {
+        console.log(foundCampground);
         //render show template with that campground
         res.render("show", {campground: foundCampground});
       }
