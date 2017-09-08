@@ -5,18 +5,18 @@ var Comment = require("./models/comment");
 var data = [
     {
       name: "Cloud's Rest", 
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDbUVlpl2hPvgp76eMxLq0c1Tk83GfhhCktL1L7EvAbi-18CCG5g",
-      description: "blah blah blah blah"
+      image: "https://farm7.staticflickr.com/6085/6037590541_19248d41f0.jpg",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus bibendum dapibus elementum. Quisque lacinia, ipsum sed sodales maximus, nisl purus congue augue, quis aliquam turpis est at libero. Vestibulum ut risus quis quam luctus venenatis. Ut tincidunt nibh sit amet hendrerit scelerisque. Proin in ornare eros. Suspendisse pellentesque lacinia metus, vel condimentum risus commodo vel. In commodo nulla a sodales convallis. Vestibulum tincidunt id massa accumsan semper. Sed luctus interdum dolor, vitae gravida lectus tincidunt efficitur. Sed fermentum, orci ac elementum scelerisque, nunc risus efficitur quam, ut sagittis ex lorem id ante. Sed auctor, enim vel ornare scelerisque, sem turpis mattis ligula, vel euismod turpis sapien id massa. Cras tempus vestibulum dignissim."
     },
     {
       name: "Desert Mesa", 
       image: "https://farm8.staticflickr.com/7252/7626464792_3e68c2a6a5.jpg",
-      description: "blah blah blah blah"
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus bibendum dapibus elementum. Quisque lacinia, ipsum sed sodales maximus, nisl purus congue augue, quis aliquam turpis est at libero. Vestibulum ut risus quis quam luctus venenatis. Ut tincidunt nibh sit amet hendrerit scelerisque. Proin in ornare eros. Suspendisse pellentesque lacinia metus, vel condimentum risus commodo vel. In commodo nulla a sodales convallis. Vestibulum tincidunt id massa accumsan semper. Sed luctus interdum dolor, vitae gravida lectus tincidunt efficitur. Sed fermentum, orci ac elementum scelerisque, nunc risus efficitur quam, ut sagittis ex lorem id ante. Sed auctor, enim vel ornare scelerisque, sem turpis mattis ligula, vel euismod turpis sapien id massa. Cras tempus vestibulum dignissim."
     },
     {
       name: "Canyon Floor", 
       image: "https://farm5.staticflickr.com/4137/4812576807_8ba9255f38.jpg",
-      description: "blah blah blah blah"
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus bibendum dapibus elementum. Quisque lacinia, ipsum sed sodales maximus, nisl purus congue augue, quis aliquam turpis est at libero. Vestibulum ut risus quis quam luctus venenatis. Ut tincidunt nibh sit amet hendrerit scelerisque. Proin in ornare eros. Suspendisse pellentesque lacinia metus, vel condimentum risus commodo vel. In commodo nulla a sodales convallis. Vestibulum tincidunt id massa accumsan semper. Sed luctus interdum dolor, vitae gravida lectus tincidunt efficitur. Sed fermentum, orci ac elementum scelerisque, nunc risus efficitur quam, ut sagittis ex lorem id ante. Sed auctor, enim vel ornare scelerisque, sem turpis mattis ligula, vel euismod turpis sapien id massa. Cras tempus vestibulum dignissim."
     }
 ];
 
