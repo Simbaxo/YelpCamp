@@ -82,3 +82,6 @@ Each Campground has:
 * Add register routes
 * Add register template
 
+# Login (Auth Pt. 3)
+* Add login routes
+* Add login templates
