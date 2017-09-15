@@ -94,3 +94,6 @@ Each Campground has:
 
 # Show/Hide Links (Auth Pt. 5)
 * Show/hide auth links in navbar correctly
+
+# Refactor The Routes
+* Use Express router to reoragnize all routes
