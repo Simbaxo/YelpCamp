@@ -101,3 +101,7 @@ Each Campground has:
 # Users + Comments
 * Associate users and comments
 * Save author's name to a comment automatically
+
+# Users + Campgrounds
+* Prevent an unauthenticaated user from creating a campground
+* Save username + id to newly created campground
