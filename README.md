@@ -141,3 +141,7 @@ Each Campground has:
 * Demo working version
 * Install and configure connect-flash
 * Add bootstrap alerts to header
+
+# Full Screen Background Image Slider
+* Create a full screen background image slider that uses a crossfade effect to transition between images
+* We'll use 5 images with 10 second intervals for a 50 second animation cycle
