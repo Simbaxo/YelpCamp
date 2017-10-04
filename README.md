@@ -150,3 +150,12 @@ Each Campground has:
 * Add price to campground model as a String datatype
 * Add price to views/campgrounds/new.ejs and views/campgrounds/edit.ejs (new and edit forms)
 * Add price to views/camprounds/show.ejs (campground show page)
+
+# UI Improvements
+* Use Bootstrap to style the login & sign up views
+* Update the nav-bar menu
+  *  Convert .container-fluid to regular .container
+  *  Add conditional active class to menu list items
+  *  Add collapsable hamburger menu
+  *  Make site responsive for mobile
+* Fix registration flash message bug
