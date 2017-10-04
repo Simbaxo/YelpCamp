@@ -159,3 +159,6 @@ Each Campground has:
   *  Add collapsable hamburger menu
   *  Make site responsive for mobile
 * Fix registration flash message bug
+
+# Moment  JS
+* Time passed since date created
